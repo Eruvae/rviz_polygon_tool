@@ -28,6 +28,14 @@ endif()
 ## Build ##
 ###########
 
+catkin_package(
+   INCLUDE_DIRS include
+   LIBRARIES rviz_polygon_tool
+#  CATKIN_DEPENDS hypermap_msgs
+#  DEPENDS boost
+)
+
+
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
@@ -46,5 +54,5 @@ set(HEADER_FILES
 set(SRC_FILES
   src/polygon_tool.cc
 )
-add_library(${PROJECT_NAME} ${SRC_FILES} ${HEADER_FILES})
+add_library(${PROJECT_NAME} ${SRC_FILES} ${HEADER_FILES} ${MOC_FILES})
 target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES})
