@@ -6,7 +6,12 @@
     RVIZ tool to create polygons.
   </description>
 
-  <maintainer email="brik@ethz.ch">Rik Bähnemann</maintainer>
+  <maintainer email="tobias.zaenker@aalto.fi">Tobias Zaenker</maintainer>
+
+  <!-- Modifications for publishing geometry_msgs::PolygonStamped -->
+  <author email="tobias.zaenker@aalto.fi">Tobias Zaenker</author>
+
+  <!-- Original polygon publisher code -->
   <author email="brik@ethz.ch">Rik Bähnemann</author>
   <author email="tmarvel@student.ethz.ch">Timothy Marvel</author>
 

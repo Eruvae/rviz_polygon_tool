@@ -1,4 +1,8 @@
 /*
+ * Modified version of polygon publisher from https://github.com/ethz-asl/polygon_coverage_planning.git
+ */
+
+/*
  * polygon_coverage_planning implements algorithms for coverage planning in
  * general polygons with holes. Copyright (C) 2019, Rik Bähnemann, Autonomous
  * Systems Lab, ETH Zürich
